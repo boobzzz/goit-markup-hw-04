@@ -137,7 +137,7 @@ button {
     z-index: 2;
 }
 
-.icon-box {
+.feature-icon-box {
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
@@ -231,6 +231,22 @@ button {
     background-color: #ffffff;
 }
 
+.socials {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.social-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
 .team-text {
     display: flex;
     flex-direction: column;
@@ -244,6 +260,7 @@ button {
 }
 
 .team-desc {
+    margin-bottom: 16px;
     text-align: center;
 }
 
