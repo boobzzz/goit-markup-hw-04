@@ -380,6 +380,11 @@ button {
     gap: 16px;
 }
 
+.footer .social-link:hover,
+.footer .social-link:focus {
+    background-color: #31D0AA;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
