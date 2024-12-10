@@ -259,7 +259,7 @@ button {
 
 .social-link:hover,
 .social-link:focus {
-    background-color: #31D0AA;
+    background-color: #404bbf;
 }
 
 .social-icon {
@@ -376,7 +376,7 @@ button {
     color: #ffffff;
 }
 
-.footer .social-item {
+.footer .socials {
     gap: 16px;
 }
 
