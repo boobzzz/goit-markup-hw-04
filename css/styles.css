@@ -255,7 +255,7 @@ button {
     width: 100%;
 }
 
-.social-icon-box {
+.social-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,7 +266,7 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-box:hover {
+.social-item:hover {
     background-color: #31D0AA;
     cursor: pointer;
 }
@@ -340,6 +340,11 @@ button {
     background-color: #2e2f42;
 }
 
+.footer .container {
+    display: flex;
+    gap: 88px;
+}
+
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -354,6 +359,20 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+.footer-socials-title {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer .social-item {
+    margin-right: 16px;
 }
 
 .visually-hidden {
